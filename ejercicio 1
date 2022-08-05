@@ -1,0 +1,13 @@
+<script>
+
+var palabra = prompt("Introduce una palabra");
+
+console.log ("La palabra ingresada es: " + palabra);
+
+let palabrainvertida = palabra.split("").reverse().join("");
+
+console.log ("La palabra invertida es: " + palabrainvertida);
+
+
+
+</script>
