@@ -1,0 +1,16 @@
+<script>
+
+
+var numero = prompt("ingresa un numero de inicio: ");
+var numero2 = prompt("ingresa un numero final: ");
+var numero3 = prompt("ingresa el numero de de valores aleatorios: ");
+var array = [];
+
+serie (numero, numero2, numero3);
+
+function serie (numero, numero2, numero3) {
+    for (let i = 0; i < numero3; i++) {
+        array.push(Math.floor(Math.random() * (numero2 - numero + 1) + numero));
+    }
+    console.log(array);
+}
