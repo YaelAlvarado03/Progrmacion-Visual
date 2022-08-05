@@ -1,0 +1,15 @@
+<script>
+
+var numero = prompt("ingresa un numero: ");
+pir(numero);
+
+function pir(numero){
+    let resultado = "";
+    for (let i = 0; i < numero; i++) {
+        resultado += numero;
+        console.log(resultado);
+    }
+    
+}
+
+</script>
